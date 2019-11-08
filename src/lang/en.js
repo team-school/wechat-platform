@@ -73,7 +73,7 @@ export default {
     size: 'Global Size'
   },
   login: {
-    title: 'Wechat Management Platform',
+    title: 'Login Form',
     logIn: 'Login',
     username: 'Username',
     password: 'Password',

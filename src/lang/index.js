@@ -20,15 +20,15 @@ const messages = {
   zh: {
     ...zhLocale,
     ...elementZhLocale
-  }//,
-  // es: {
-  //   ...esLocale,
-  //   ...elementEsLocale
-  // },
-  // ja: {
-  //   ...jaLocale,
-  //   ...elementJaLocale
-  // }
+  },
+  es: {
+    ...esLocale,
+    ...elementEsLocale
+  },
+  ja: {
+    ...jaLocale,
+    ...elementJaLocale
+  }
 }
 export function getLanguage() {
   const chooseLanguage = Cookies.get('language')
